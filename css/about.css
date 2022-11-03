@@ -116,6 +116,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color:#000;
+    background-image: #f9d66c;
+}
+
+
+#card-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* Mobile responsive */
