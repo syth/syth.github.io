@@ -44,6 +44,7 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
+    font-style: italic;
 }
 
 .navbar__menu {
@@ -259,8 +260,6 @@
         font-size: 40px;
     }
 }
-
-
 
 
 /* Footer CSS */
