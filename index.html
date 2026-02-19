@@ -5,305 +5,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cole DenBleyker - Software Engineer</title>
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
+    <div class="page-frame">
+        <div id="site-header"></div>
+        <hr>
+        <div id="site-nav"></div>
+        <hr>
+        <main class="container">
+            <section>
+                <h2>About</h2>
+                <p>Hi, I'm Cole DenBleyker, a fourth-year Software Engineering student at RIT. 
+                    I am passionate about developing, planning, and maintaining code. 
+                    Motivated and skilled software engineering student seeking full time employment. 
+                    Proficient in Java, Python, and C, with a strong foundation in software development principles and practices. 
+                    Eager to apply classroom knowledge to real-world projects and contribute effectively to a dynamic team environment. 
+                    Some of my skills are below, but I am always learning new ones as I take on projects.</p>
 
-    <nav>
-        <div class="navbar-links">
-            <a href="#" onclick="showAbout()">About</a>
-            <a href="#" onclick="showProjects()">Projects</a>
-            <a href="#" onclick="showResume()">Resume</a>
-            <a href="https://github.com/syth" target="_blank">
-                <img src="resources/github-mark-white.png" alt="GitHub Logo" class="navbar-logo">
-            </a>
-            <a href="https://linkedin.com/in/coledenbleyker" target="_blank">
-                <img src="resources/In-White-96.png" alt="LinkedIn Logo" class="navbar-logo">
-            </a>
-        </div>
-        <!-- Responsive Navbar -->
-        <div class="navbar-icon" onclick="toggleMenu()">
-            &#9776;
-        </div>
-        <div class="navbar-menu" id="navbar-menu">
-            <a href="#" onclick="showAbout(); toggleMenu()">About</a>
-            <a href="#" onclick="showProjects(); toggleMenu()">Projects</a>
-            <a href="#" onclick="showResume(); toggleMenu()">Resume</a>
-            <a href="https://github.com/syth" target="_blank">GitHub</a>
-            <a href="https://linkedin.com/in/coledenbleyker" target="_blank">LinkedIn</a>
-        </div>
-    </nav>
+                <h3>Skills</h3>
+                <details>
+                    <summary>Programming Languages</summary>
+                    <ul>
+                        <li>Java, Python, C / C# / C++, HTML, CSS, JavaScript, SQL, Angular, React, JavaFX, Terraform</li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Tools and Technologies</summary>
+                    <ul>
+                        <li>Windows, MacOS, Linux / Unix, Embedded Systems, Amazon Web Services, Visual Studio Code, 
+                            Visual Studio, Docker, Microsoft Office Suite (Word, Excel), PostgreSQL</li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Programming Concepts</summary>
+                    <ul>
+                        <li>Version Control (Git, GitHub, GitLab), S.O.L.I.D., G.R.A.S.P, RESTful, Object Oriented Programming, 
+                            Object Oriented Design, User Stories, UML Design, Sprint Planning, Project Management, Code Review, Design Patterns</li>
+                    </ul>
+                </details>
 
-    <header>
-        <h1>Cole DenBleyker</h1>
-        <p>Software Engineering Student at Rochester Institute of Technology</p>
-    </header>
-
-    <div class="container">
-
-        <section id="about" class="content-section">
-            <h2>About Me</h2>
-            <p>Hi, I'm Cole DenBleyker, a third-year Software Engineering student at RIT!<br>
-                I am passionate about developing, planning, and maintaining code.
-                Motivated and skilled software engineering student seeking a co-op opportunity.<br> 
-                Proficient in Java, Python, and C, with a strong foundation in software development principles and practices.<br> 
-                Eager to apply classroom knowledge to real-world projects and contribute effectively to a dynamic team environment.
-                <br>
-                Some of my skills are below, but I am always learning new ones as I take on projects!
-            </p>
-
-        <h2>Work Experience</h2>
-        <h3 class="project-name">Booz Allen Hamilton | Jun 2024 - Aug 2024</h3>
-        <p>General Management Consultant Intern | McLean, VA
-            <li>Consulted with clients to develop innovative solutions to improve operations</li>
-            <li>Worked with a team of four on the PennyOps project in a Scrum environment</li>
-            <li>Utilized Amazon Web Services, Terraform, JavaScript, React, Remix, Git for version control, GitHub as team repository, Jira for project management, Confluence for documentation</li>
-        </p>
-        <h3 class="project-name">Rochester Institute of Technology | Aug 2024 - Present</h3>
-        <p>Course Assistant | Rochester, NY
-            <li>Course Assistant for SWEN-383 - Software Design Principles and Patterns</li>
-            <li>Provides classroom management support by supervising and assisting students</li>
-            <li>Provides feedback to students and faculty</li>
-        </p>
-
-            <div class="skills-section">
-                <h2>Skills</h2>
-
-                <div class="collapsible">
-                    <button class="collapsible-btn">Programming Languages</button>
-                    <div class="content">
-                        <ul>
-                            <li>Java</li>
-                            <li>Python</li>
-                            <li>C / C# / C++</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>SQL</li>
-                            <li>Angular</li>
-                            <li>React</li>
-                            <li>JavaFX</li>
-                            <li>Terraform</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="collapsible">
-                    <button class="collapsible-btn">Tools and Technologies</button>
-                    <div class="content">
-                        <ul>
-                            <li>Windows</li>
-                            <li>MacOS</li>
-                            <li>Linux / Unix</li>
-                            <li>Embedded Systems</li>
-                            <li>Amazon Web Services</li>
-                            <li>Visual Studio Code</li>
-                            <li>Visual Studio</li>
-                            <li>Docker</li>
-                            <li>Microsoft Office Suite (Word, Excel)</li>
-                            <li>PostgreSQL</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="collapsible">
-                    <button class="collapsible-btn">Programming Concepts</button>
-                    <div class="content">
-                        <ul>
-                            <li>Version Control (Git, GitHub, GitLab)</li>
-                            <li>S.O.L.I.D.</li>
-                            <li>G.R.A.S.P</li>
-                            <li>RESTful</li>
-                            <li>Object Oriented Programming</li>
-                            <li>Object Oriented Design</li>
-                            <li>User Stories</li>
-                            <li>UML Design</li>
-                            <li>Sprint Planning</li>
-                            <li>Project Management</li>
-                            <li>Code Review</li>
-                            <li>Design Patterns</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <h2>More About Me</h2>
-            <p>I played varsity tennis in high school, and now I play recreationally.<br>
-                I also bowl recreationally, the last time I was in a league, I had an average of 161.<br>
-                I love vintage technology, primarily computers, stereo equipment, and retro video game development tools.<br>
-                I am a huge audiophile. I have a large vinyl record collection, and a few CD's.
-                <a href="https://www.discogs.com/user/iisyth/collection" target="_blank">You can see my collection
-                    here!</a><br>
-                I also have a very large book collection, mostly consisting of manga.
-                <a href="https://www.libib.com/u/syth" target="_blank">You can see my collection here!</a>
-            </p>
-        </section>
-
-        <section id="projects" class="content-section menu-expanded" style="display:none;">
-            <h2>Projects</h2>
-
-            <div class="project">
-                <div class="project-details">
-                    <h3 class="project-name">Personal Website | Nov 2023 - Present</h3>
-                    <p>Personal Project
-                        <br>This project is the very thing being looking at right now! It is the cultivation of
-                        knowledge from past web development classes and personal research.
-                        <br>Developed in HTML and CSS with some JavaScript for the navigation bar, the collapsable
-                        buttons.
-                        <br>Utilizes Git for version control, GitHub as a public repository, as well as webpage hosting.
-                        Visual Studio Code for the IDE.
-                        <br>Website will most likely always be in some form of development as I continue to learn and
-                        grow my skillsets.
-                        <br>Repository is public, <a href="https://github.com/syth/syth.github.io" target="_blank">which
-                            can be accessed here</a>.
-                    </p>
-                </div>
-            </div>
-
-            <div class="project">
-                <div class="project-details">
-                    <h3 class="project-name">Multi-User Dungeon | Aug 2023 - Dec 2023</h3>
-                    <p>Engineering of Software Subsystems
-                        <br>Collaborated with a team of four to create plain text and graphical user interfaces for a
-                        roguelike game.
-                        <br>Developed in Java, JavaFX for the interfaces, utilizing software design patterns,
-                        using Visual Studio Code IDE, Git for version control, and GitHub as a team repository.
-                        Used Scrum methodology, had code reviews.
-                        <br>Used noun-verb analysis to develop application to achieve requirements, Trello for project
-                        management.
-                        <br>Repository is private.
-                        <div class="project-screenshots">
-                            <img src="./resources/MUD1.png" alt="MUD Plain Text" style="max-width: 100%;">
-                            <img src="./resources/MUD3.png" alt="MUD GUI Inside a dungeon" style="max-width: 100%;">
-                        </div>
-                    </p>
-                </div>
-            </div>
-
-            <div class="project">
-                <div class="project-details">
-                    <h3 class="project-name">E-Store Application | May 2023 - Aug 2023</h3>
-                    <p>Intro to Software Engineering
-                        <br>Collaborated with a team of four to build an interactive e-store website with
-                        a focus on selling books.
-                        <br>Developed in Java, Angular, HTML, and CSS, using Visual Studio Code IDE, Git for version control,
-                        GitHub as a team repository, and Trello for project management. Used Scrum methodology, had code reviews.
-                        <br>Analyzed usability and problem solved bugs in a high-pressure, time-
-                        sensitive environment
-                        <br>Utilized programming concepts like S.O.L.I.D., G.R.A.S.P., UML
-                        Designing, Sprint Planning
-                        <br>Repository is private.
-                    </p>
-                </div>
-            </div>
-
-            <div class="project">
-                <div class="project-details">
-                    <h3 class="project-name">Flashcards | Jan 2023 </h3>
-                    <p>Personal Project
-                        <br>Developed app in Python using Visual Studio Code IDE, Git for version control, and GitHub as
-                        a
-                        public repository to help memorize beginner Japanese characters.
-                        <br>Programmed GUI using tkinter to create an interactive menu for a user to input guesses, keep
-                        track of
-                        user's score and accuracy.
-                        <br>Repository is public, <a href="https://github.com/syth/Flashcards" target="_blank">which can
-                            be accessed here</a>.
-                    <div class="project-screenshots">
-                        <img src="./resources/Flashcards1.png" alt="Flashcards Correct" style="max-width: 100%;">
-                        <img src="./resources/Flashcards2.png" alt="Flashcards Help" style="max-width: 100%;">
-                        <img src="./resources/Flashcards3.png" alt="Flashcards Incorrect" style="max-width: 100%;">
-                    </div>
-                    </p>
-                </div>
-            </div>
-            <div class="project">
-                <div class="project-details">
-                    <h3 class="project-name">Pitstop | Aug 2022 - Dec 2022</h3>
-                    <p>Software Engineering Freshman Seminar
-                        <br>Collaborated with a team of four to create an interactive website to help people figure out
-                        where
-                        restrooms are on their road trips.
-                        <br>Used HTML, CSS, and JavaScript, using Git for version control and GitHub as a team
-                        repository, Trello for project management.
-                        <br>Website is currently mostly functional, Google Map API has been cancelled so it does not
-                        display correctly.
-                        <br>Repository is public, <a href="https://github.com/SWEN-101/2221-SWEN-101-04-1"
-                            target="_blank">which can be accessed here</a>.
-                        Website is accessible via the GitHub repository.
-                    <div class="project-screenshots">
-                        <img src="./resources/Pitstop1.png" alt="Pitstop Main Screen" style="max-width: 100%;">
-                        <img src="./resources/Pitstop2.png" alt="Pitstop Login Screen" style="max-width: 100%;">
-                        <img src="./resources/Pitstop3.png" alt="Pitstop Account Settings" style="max-width: 100%;">
-                    </div>
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <section id="resume" class="content-section" style="display:none;">
-            <iframe id="pdfFrame" src="./resources/Cole_DenBleyker_Resume.pdf" width="100%" height="1100px"></iframe>
-        </section>
-
+                <h3>More About Me</h3>
+                <p>I love vintage technology, primarily computers, stereo equipment, and retro video games and their development tools. 
+                    I am a huge audiophile. I have a large vinyl record collection, and a few CDs. <a href="https://www.discogs.com/user/iisyth/collection" target="_blank">
+                    You can see my collection here!</a> I also have a very large book collection, mostly consisting of manga. 
+                    <a href="https://www.libib.com/u/syth" target="_blank">You can see my collection here!</a></p>
+            </section>
+        </main>
+        <hr>
+        <div id="site-footer"></div>
     </div>
-
-    <script>
-        function toggleMenu() {
-            var menu = document.getElementById('navbar-menu');
-            menu.classList.toggle('menu-expanded');
-
-            if (!menu.classList.contains('menu-expanded')) {
-                var sections = document.querySelectorAll('.menu-expanded');
-                sections.forEach(function (section) {
-                    section.style.display = 'none';
-                });
-            }
-        }
-
-        function showAbout() {
-            hideAllSections();
-            document.getElementById('about').style.display = 'block';
-        }
-
-        function showProjects() {
-            hideAllSections();
-            document.getElementById('projects').style.display = 'block';
-        }
-
-        function showResume() {
-            hideAllSections();
-            document.getElementById('resume').style.display = 'block';
-        }
-
-        function showLinks() {
-            hideAllSections();
-            document.getElementById('links').style.display = 'block';
-        }
-
-        function hideAllSections() {
-            var sections = document.getElementsByClassName('content-section');
-            for (var i = 0; i < sections.length; i++) {
-                sections[i].style.display = 'none';
-            }
-        }
-
-        var coll = document.getElementsByClassName("collapsible-btn");
-        var i;
-
-        for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function () {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                    content.style.display = "none";
-                } else {
-                    content.style.display = "block";
-                }
-            });
-        }
-    </script>
-
+    <script src="js/components.js"></script>
 </body>
-
 </html>
