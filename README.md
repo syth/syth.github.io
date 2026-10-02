@@ -1,1 +1,1 @@
-# syth.gihub.io
+# syth.github.io
